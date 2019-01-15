@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolveDB.Cli", "src\EvolveDB.Cli\EvolveDB.Cli.csproj", "{B0132B4C-DAA1-4D5D-B6CE-9AF280346FFE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolveDB", "src\EvolveDB\EvolveDB.csproj", "{0D9A2E71-BE27-49C6-83E1-D0A139D85A2C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolveDB.Abstractions", "src\EvolveDB.Abstractions\EvolveDB.Abstractions.csproj", "{D6588CCB-6A71-4689-A69C-92AFFED84B8E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolveDB.Tests", "test\EvolveDB.Tests\EvolveDB.Tests.csproj", "{11E3C468-9E88-42F7-9C68-DCB6D46C4566}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{DDDDBC62-46F9-41B8-863F-13BD0A98569C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvolveDB.SqlServer", "src\EvolveDB.SqlServer\EvolveDB.SqlServer.csproj", "{71F9799E-4083-45E1-93A5-3B087E415BBF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B0132B4C-DAA1-4D5D-B6CE-9AF280346FFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0132B4C-DAA1-4D5D-B6CE-9AF280346FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0132B4C-DAA1-4D5D-B6CE-9AF280346FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0132B4C-DAA1-4D5D-B6CE-9AF280346FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D9A2E71-BE27-49C6-83E1-D0A139D85A2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D9A2E71-BE27-49C6-83E1-D0A139D85A2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D9A2E71-BE27-49C6-83E1-D0A139D85A2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D9A2E71-BE27-49C6-83E1-D0A139D85A2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6588CCB-6A71-4689-A69C-92AFFED84B8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6588CCB-6A71-4689-A69C-92AFFED84B8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6588CCB-6A71-4689-A69C-92AFFED84B8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6588CCB-6A71-4689-A69C-92AFFED84B8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11E3C468-9E88-42F7-9C68-DCB6D46C4566}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11E3C468-9E88-42F7-9C68-DCB6D46C4566}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11E3C468-9E88-42F7-9C68-DCB6D46C4566}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11E3C468-9E88-42F7-9C68-DCB6D46C4566}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F9799E-4083-45E1-93A5-3B087E415BBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F9799E-4083-45E1-93A5-3B087E415BBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F9799E-4083-45E1-93A5-3B087E415BBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F9799E-4083-45E1-93A5-3B087E415BBF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11E3C468-9E88-42F7-9C68-DCB6D46C4566} = {DDDDBC62-46F9-41B8-863F-13BD0A98569C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5B67A17-A958-48E5-8E48-5E0547AF3FE6}
+	EndGlobalSection
+EndGlobal
